@@ -78,7 +78,7 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## HLT
 
 
-## Output:
+# Output:
 ![Screenshot 2024-03-11 112519](https://github.com/Dhanu654/EXPERIMENT--01-ALP-FOR-8086/assets/148514965/f1250846-dc44-4ceb-8e7c-a56f04b2c193)
 
 
@@ -89,7 +89,7 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## sub AL,BL
 ## HLT
  
-## Output:
+# Output:
 ![Screenshot 2024-03-11 112156](https://github.com/Dhanu654/EXPERIMENT--01-ALP-FOR-8086/assets/148514965/451f689f-3cf7-43ab-8c46-efab3fe4b49a)
 
 
@@ -98,7 +98,7 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## mov BL,30h
 ## mul AL
 ## HLT
- ## Output:
+# Output:
  ![Screenshot 2024-03-11 112322](https://github.com/Dhanu654/EXPERIMENT--01-ALP-FOR-8086/assets/148514965/071db632-2a5d-4244-b33c-33126cef3bb3)
 
  
@@ -110,7 +110,7 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## DIV AL
 ## HLT
 
-## Output:
+# Output:
 ![Screenshot 2024-03-11 112430](https://github.com/Dhanu654/EXPERIMENT--01-ALP-FOR-8086/assets/148514965/2d9f8b7e-f5f7-45aa-8a16-7e0cd8688c75)
 
 
