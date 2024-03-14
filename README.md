@@ -1,7 +1,7 @@
-# EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
+### EXPERIMENT--01-ALP-FOR-8086
+# Name : Dhanusya.K
+# Roll no : 212223230043
+# Date of experiment : 11-03-24
 
 
 
@@ -16,16 +16,10 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
  ## Running the Emulator :
 1.	Download and install emu8086 (www.emu8086.com) It is usually installed in C:\EMU8086 subfolder in the “Windows” directory
 2.	  Run  emu8086 icon (on the desktop or in the c:\EMU8086 folder of window) It has green color 
- 
- 
-3.		write the code for the appropriate program for ADDITION,SUBTRACTION, MULTIPLICATION,  DIVISION operations 
-
+3.		Write the code for the appropriate program for ADDITION,SUBTRACTION, MULTIPLICATION,  DIVISION operations 
 4.	 Compile the program and check for the errors 
 5.	Run (once there is no syntax error) 
-
 6.	Click OK to see/view the output of your program on the Emulator screen. 
-
-
 7.	After running the program, another menu screen will be displayed, where you have the option to “View” symbol table,
 8.	 
 
@@ -75,27 +69,55 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 
 
-## Programs for arithmetic  operations
+## Programs for arithmetic  operations:
 
 ## Addition  of 8 bit ALP 
+mov AL,48h
+mov BL,60h
+ADD AL,BL
+HLT
 
 
+## Output:
+![Screenshot 2024-03-11 112519](https://github.com/Dhanu654/EXPERIMENT--01-ALP-FOR-8086/assets/148514965/f1250846-dc44-4ceb-8e7c-a56f04b2c193)
 
-## Output  
+
  
-## Subtraction   of 8 bit numbers  ALP 
+## Subtraction   of 8 bit numbers  ALP
+mov AL,20h
+mov BL,25h
+sub AL,BL
+HLT
  
-## Output  
+## Output:
+![Screenshot 2024-03-11 112156](https://github.com/Dhanu654/EXPERIMENT--01-ALP-FOR-8086/assets/148514965/451f689f-3cf7-43ab-8c46-efab3fe4b49a)
+
+
 ## Multiplication alp 
- ## Output  
+mov AL,27h
+mov BL,30h
+mul AL
+HLT
+ ## Output:
+ ![Screenshot 2024-03-11 112322](https://github.com/Dhanu654/EXPERIMENT--01-ALP-FOR-8086/assets/148514965/071db632-2a5d-4244-b33c-33126cef3bb3)
+
+ 
 
 
 ## Division alp 
+mov AL,40h
+mov BL,28h
+DIV AL
+HLT
 
-## Output  
+## Output:
+![Screenshot 2024-03-11 112430](https://github.com/Dhanu654/EXPERIMENT--01-ALP-FOR-8086/assets/148514965/2d9f8b7e-f5f7-45aa-8a16-7e0cd8688c75)
+
+
 
 
 ## Result :
+Thus the execution of  ALP on fundamental arithmetic and logical operations is successfully verified.
  
 
 
